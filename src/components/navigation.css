@@ -1,0 +1,291 @@
+/* navigation.css */
+
+/* Container for the whole navigation bar */
+.navbar {
+  background-color: #3498DB; /* Background color */
+  color: #ffffff; /* Text color for contrast */
+  padding: 15px 20px; /* Padding for spacing */
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space out items */
+  align-items: center; /* Center items vertically */
+}
+
+/* Container for the logo and title */
+.logo-container {
+  display: flex;
+  align-items: center; /* Align logo and title vertically */
+}
+
+/* Logo image styling */
+.logo-img {
+  height: 50px; /* Adjust based on your design */
+  margin-right: -1px; /* Space between logo and title */
+}
+
+/* Styling for the title */
+/* Styling for RDK ENTERTAINMENT similar to the uploaded font */
+.logo-text {
+  font-family: 'Montserrat', sans-serif; /* Clean and modern sans-serif font */
+  font-weight: 700; /* Bolder weight */
+  font-size: 38px; /* Slightly larger for impact */
+  color: #dadcde; /* Dark slate blue for a modern look */
+  font-style: italic; /* Adding italic to match the slant in the reference */
+  letter-spacing: 0.5px; /* Subtle spacing for readability */
+  padding: 8px 12px;
+  border-radius: 4px; /* Rounded edges for a softer appearance */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  background-color: transparent; /* Keep the background clean */
+}
+
+
+/* Navbar items styling */
+.navbar-nav > li {
+  margin-left: 10px; /* Reduced space between navigation items */
+  position: relative; /* Needed for the pseudo-element */
+}
+
+/* Navbar link styling */
+.navbar-nav > li > a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 14px; /* Adjust font size to fit better */
+  color: #E6E6FA; /* Adjust color if needed */
+  text-transform: uppercase;
+  padding: 8px 12px; /* Reduced padding for tighter spacing */
+  display: flex;
+  align-items: center; /* Center text vertically within the link */
+  text-decoration: none; /* Remove underline */
+  position: relative; /* Ensure the pseudo-element is positioned relative to the link */
+  border-radius: 4px; /* Rounded corners for links */
+}
+
+/* Highlight bar effect for all links */
+.navbar-nav > li > a:after {
+  content: '';
+  position: absolute;
+  left: 0; /* Align the bar to the left edge */
+  bottom: -2px; /* Position the bar just below the text */
+  width: 100%; /* Full width highlight bar */
+  height: 2px; /* Height of the highlight bar */
+  background-color: #f1c40f; /* Yellow highlight color */
+  transform: scaleX(0); /* Initially scale down to 0 */
+  transform-origin: bottom left; /* Scale from the left side */
+  transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+/* Show highlight bar on hover and focus */
+.navbar-nav > li > a:hover:after,
+.navbar-nav > li > a:focus:after {
+  transform: scaleX(1); /* Scale to full width */
+}
+
+/* Active state: keep highlight bar visible but avoid expanding */
+.navbar-nav > li > a.active:after {
+  transform: scaleX(0); /* Maintain highlight as not expanded */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left in mobile view */
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%; /* Full width for mobile view */
+  }
+
+  .navbar-nav > li {
+    margin: 5px 0; /* Adjust spacing for mobile view */
+  }
+
+  .logo-container {
+    margin-bottom: 20px; /* Add space below the logo and title on mobile view */
+  }
+}
+/* Dropdown Menu Styles */
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+  top: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu li a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Additional Dropdown Styling */
+.dropdown-menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+  top: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 5px 0;
+  border-radius: 4px;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
+  display: block; /* Show on hover */
+}
+
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu li a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Dropdown Icon Styles */
+.dropdown-link {
+  display: flex;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #e6e6fa;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Adjust dropdown icon position */
+.dropdown-icon {
+  font-size: 12px;
+  margin-left: 5px;
+  color: #e6e6fa;
+}
+
+.dropdown:hover .dropdown-icon {
+  color: #f1c40f; /* Icon color on hover */
+}
+/* Dropdown Menu Styles */
+.dropdown-menu li a {
+  font-family: "Roboto", sans-serif; /* Apply Roboto font */
+  font-weight: 500;
+  font-size: 14px;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+/* Additional Dropdown Styling */
+.dropdown-menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+  top: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 5px 0;
+  border-radius: 4px;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
+  display: block; /* Show on hover */
+}
+
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Dropdown Icon Styles */
+.dropdown-link {
+  position: relative;
+  padding-right: 20px;
+  background: none;
+  border: none;
+  color: #e6e6fa;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.dropdown-icon {
+  font-size: 12px;
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 8px;
+  color: #e6e6fa;
+}
+
+.dropdown:hover .dropdown-icon {
+  color: #f1c40f;
+}
+/* Slack Link Styling */
+.dropdown-menu li a {
+  font-family: "Roboto", sans-serif; /* Set font to Roboto */
+  font-weight: 700; /* Set font weight to bold */
+  font-size: 14px; /* Adjust size as needed */
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f1f1f1;
+}
+
+.hover-preview {
+  position: absolute;
+  top: 50px; /* Adjust based on your layout */
+  left: 0;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+  white-space: nowrap; /* Prevent text from wrapping */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.navbar-nav > li:hover .hover-preview {
+  opacity: 1;
+  visibility: visible;
+}
+

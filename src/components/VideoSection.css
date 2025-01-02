@@ -1,0 +1,20 @@
+.video-section {
+  margin-top: 50px; 
+  width: 100%; 
+  max-width: 700px; 
+  aspect-ratio: 16/9; 
+  overflow: hidden;
+  z-index: 1; 
+  background: rgba(0, 0, 0, 0.6); 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  display: flex; /* Center video in the container */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+video {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+}

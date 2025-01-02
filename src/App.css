@@ -1,0 +1,49 @@
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    width: 110%;
+    /* src/App.css */
+/* src/App.css */
+.content-container {
+  position: relative; /* Ensure it scrolls naturally with the content */
+  width: 100%; /* Full width */
+  padding: 20px; /* Adjust as needed */
+  background-color: #f5f5f5; /* Optional background color */
+  box-sizing: border-box;
+}
+/* Ensure specificity and force the styles to apply */
+
+/* Change font for the widget's title */
+.rcw-conversation-container .rcw-header h4 {
+  font-family: 'Roboto', sans-serif !important; /* Change this to your preferred font */
+  font-weight: 700 !important; /* Ensure bold is applied */
+  font-size: 24px !important; /* Ensure font size change */
+  color: #3498DB !important; /* Optional: Change the color */
+}
+
+/* Change font for the widget's subtitle */
+/* Targeting the widget subtitle to increase the font size and change font-family */
+.rcw-conversation-container .rcw-header p {
+  font-family: 'Calibri', sans-serif !important; /* Apply Calibri font */
+  font-size: px !important; /* Increase font size to 18px, adjust as needed */
+  color: #666666 !important; /* Optional: Change subtitle text color */
+}
+
+
+
+}
+  
+}
+

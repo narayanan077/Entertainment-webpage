@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); /* Importing Montserrat for a bold and modern look */
+
+  /* Keyframes for title animation */
+  @keyframes titleHover {
+    0% {
+      transform: translateY(0);
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    50% {
+      transform: translateY(-5px);
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    100% {
+      transform: translateY(0);
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+
+  /* Keyframes for tile animation */
+  @keyframes tileHover {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  /* Keyframes for text glow animation */
+  @keyframes textGlow {
+    0% {
+      transform: scale(1);
+      color: #3498db;
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    50% {
+      transform: scale(1.1);
+      color: #e74c3c; /* Changes color to a vibrant red */
+      text-shadow: 0 0 15px rgba(255, 0, 0, 0.8); /* Adds a glowing red shadow */
+    }
+    100% {
+      transform: scale(1);
+      color: #3498db;
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+
+  /* New Styling for Portfolio Project Titles */
+  .project-title-1,
+  .project-title-2,
+  .project-title-3,
+  .project-title-4,
+  .project-title-5,
+  .project-title-6,
+  .project-title-7,
+  .project-title-8,
+  .project-title-9 {
+    font-size: 18px; /* A slightly larger size for emphasis */
+    margin-top: 20px;
+    font-weight: bold; /* Makes the font bold */
+    color: #3498db; /* A rich, dark blue color */
+    text-transform: capitalize; /* Capitalizes the first letter of each word */
+    letter-spacing: 0.5px; /* Subtle letter spacing */
+    line-height: 1.3; /* Improves readability with better line spacing */
+    border-bottom: 2px solid #2980b9; /* Adds a stylish bottom border */
+    padding-bottom: 5px; /* Adds padding to separate the text from the border */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+
+  /* Specific font styles for each project title */
+  .project-title-1 {
+    font-family: 'Raleway', sans-serif; /* Unique font style */
+  }
+
+  .project-title-2 {
+    font-family: 'Lora', serif; /* Unique font style */
+  }
+
+  .project-title-3 {
+    font-family: 'Roboto', sans-serif; /* Unique font style */
+  }
+
+  .project-title-4 {
+    font-family: 'Poppins', sans-serif; /* Unique font style */
+  }
+
+  .project-title-5 {
+    font-family: 'Raleway', sans-serif; /* Unique font style */
+  }
+
+  .project-title-6 {
+    font-family: 'Lora', serif; /* Unique font style */
+  }
+
+  .project-title-7 {
+    font-family: 'Roboto', sans-serif; /* Unique font style */
+  }
+
+  .project-title-8 {
+    font-family: 'Poppins', sans-serif; /* Unique font style */
+  }
+
+  .project-title-9 {
+    font-family: 'Raleway', sans-serif; /* Unique font style */
+  }
+
+  .project-title-1:hover,
+  .project-title-2:hover,
+  .project-title-3:hover,
+  .project-title-4:hover,
+  .project-title-5:hover,
+  .project-title-6:hover,
+  .project-title-7:hover,
+  .project-title-8:hover,
+  .project-title-9:hover {
+    animation: titleHover 0.6s ease; /* Applies the hover animation */
+  }
+
+  /* Squad Details Styling */
+  .squad-text {
+    margin-bottom: 50px;
+  }
+
+  .squad-text h2 {
+    font-size: 32px; /* Smaller font size for a refined look */
+    font-family: 'Lora', serif; /* Using Lora font for a more elegant style */
+    color: #3498db; /* Initial color */
+    text-transform: uppercase; /* Uppercase for a bold look */
+    letter-spacing: 1px; /* Increased letter spacing for effect */
+    margin-bottom: 30px; /* Spacing below the heading */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+
+  .squad-text h2:hover {
+    animation: textGlow 1s ease-in-out; /* Applies the text glow animation on hover */
+  }
+
+  .squad-text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif; /* Using Roboto font for paragraphs */
+    color: #444; /* Darker gray color for better readability */
+    text-align: left; /* Ensures left-side alignment */
+    line-height: 1.6; /* Improved line spacing for readability */
+    padding-left: 0; /* Removes any left padding */
+    padding-right: 0; /* Optional: adjust as needed */
+  }
+
+  /* List Styling */
+  .squad-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .squad-list li {
+    margin-bottom: 10px;
+  }
+
+  .squad-list li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .squad-list li a:hover {
+    text-decoration: underline;
+  }
+
+  /* Portfolio Styling */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  .squad-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .portfolio h2 {
+    font-size: 30px; /* Decreased font size for a balanced look */
+    
+    margin-bottom: 20px;
+    color: #3498db; /* Initial color */
+    font-family: 'Lora', serif; /* Using Lora font for an elegant style */
+    font-weight: 700; /* Bold weight for emphasis */
+    text-transform: uppercase; /* Uppercase for emphasis */
+    letter-spacing: 1px; /* Increased letter spacing for a dramatic effect */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+
+  .portfolio h2:hover {
+    animation: textGlow 1s ease-in-out; /* Applies the text glow animation on hover */
+  }
+
+  .sub-title {
+    color: #999;
+  }
+
+  .portfolio .row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -10px; /* Ensures correct spacing between columns */
+  }
+
+  .portfolio .column {
+    flex: 1;
+    margin: 10px;
+    background-color: #ffffff; 
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+
+  .portfolio .column:hover {
+    animation: tileHover 0.6s ease; /* Applies the tile hover animation */
+  }
+
+  /* Set uniform image size for all portfolio items */
+.portfolio .column img {
+  width: 100%; /* Set width to fill the column */
+  height: 200px; /* Set a fixed height for uniformity */
+  object-fit: cover; /* Ensures the image scales while maintaining its aspect ratio */
+  border-radius: 5px; /* Optional: Adds rounded corners */
+}
+
+
+  .portfolio .column p {
+    font-size: 2rem;
+  color: #333333;
+  text-align: left;
+  font-family: 'Calibri', sans-serif;
+  margin: 0;
+
+  }
+
+  .portfolio .column h3 {
+    font-size: 18px; /* Increased font size for emphasis */
+    font-family: 'Montserrat', sans-serif; /* Using Montserrat font for a bold and modern style */
+    color: #3498db;
+    font-weight: bold; /* Ensuring the font is bold */
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .portfolio .column h3:hover {
+    animation: titleHover 0.6s ease; /* Applies the hover animation */
+  }

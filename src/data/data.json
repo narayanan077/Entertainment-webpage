@@ -1,0 +1,865 @@
+{
+  
+  "devices": [
+    {
+      "model": "Apache 2K",
+      "mac": "E8:51:9E:5C:90:40",
+      "panelSize": "24 Inch",
+      "variant": "EVT",
+      "Squad Name": "E2E New Device Primary Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 2K",
+      "mac": "E8:51:9E:5C:90:56",
+      "panelSize": "24 Inch",
+      "variant": "EVT",
+      "Squad Name": "E2E New Device Primary Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 2K",
+      "mac": "E8:51:9E:5C:90:1C",
+      "panelSize": "24 Inch",
+      "variant": "EVT",
+      "Squad Name": "E2E New Device Primary Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 2K",
+      "mac": "E8:51:9E:5C:90:C4",
+      "panelSize": "32 Inch",
+      "variant": "EVT",
+      "Squad Name": "E2E New Device Primary Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 2K",
+      "mac": "E8:51:9E:5C:90:CA",
+      "panelSize": "32 Inch",
+      "variant": "EVT",
+      "Squad Name": "E2E New Device Primary Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 2K",
+      "mac": "E8:51:9E:5C:90:9E",
+      "panelSize": "32 Inch",
+      "variant": "EVT",
+      "Squad Name": "E2E New Device Primary Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 2K",
+      "mac": "E8:51:9E:5C:90:B2",
+      "panelSize": "32 Inch",
+      "variant": "EVT",
+      "Squad Name": "E2E New Device Primary Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 2K",
+      "mac": "E8:51:9E:5A:26:DA",
+      "panelSize": "32 Inch",
+      "variant": "EVT",
+      "Squad Name": "E2E New Device Primary Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 2K",
+      "mac": "E8:51:9E:5A:26:DD",
+      "panelSize": "32 Inch",
+      "variant": "EVT",
+      "Squad Name": "E2E New Device Primary Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 2K",
+      "mac": "1C:2F:A2:1F:6B:EC",
+      "panelSize": "32 Inch",
+      "variant": "DVT",
+      "Squad Name": "E2E New Device Primary Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 2K",
+      "mac": "1C:2F:A2:1F:6A:E1",
+      "panelSize": "24 Inch",
+      "variant": "DVT",
+      "Squad Name": "E2E New Device Primary Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 2K",
+      "mac": "F4:20:15:B6:52:8F",
+      "panelSize": "24 Inch",
+      "variant": "DVT",
+      "Squad Name": "E2E New Device Primary Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 2K",
+      "mac": "1C:2F:A2:1F:6B:FC",
+      "panelSize": "32 Inch",
+      "variant": "DVT",
+      "Squad Name": "E2E New Device Primary Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 2K",
+      "mac": "F4:20:15:B6:52:CB",
+      "panelSize": "24 Inch",
+      "variant": "DVT",
+      "Squad Name": "E2E New Device Primary Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Negroni 2K",
+      "mac": "E8:51:9E:D4:3E:16",
+      "panelSize": "32 Inch",
+      "variant": "EVT",
+      "Squad Name": "E2E New Device Secondary Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Negroni 2K",
+      "mac": "E8:51:9E:D4:3D:45",
+      "panelSize": "32 Inch",
+      "variant": "EVT",
+      "Squad Name": "E2E New Device Secondary Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Negroni 2K",
+      "mac": "1C:2F:A2:27:3F:5E",
+      "panelSize": "24 Inch",
+      "variant": "EVT",
+      "Squad Name": "E2E New Device Secondary Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Negroni 2K",
+      "mac": "1C:2F:A2:27:3F:C7",
+      "panelSize": "24 Inch",
+      "variant": "EVT",
+      "Squad Name": "E2E New Device Secondary Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Negroni 2K",
+      "mac": "1C:2F:A2:26:97:79",
+      "panelSize": "40 Inch",
+      "variant": "EVT",
+      "Squad Name": "E2E New Device Secondary Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Negroni 2K",
+      "mac": "1C:2F:A2:BE:18:A9",
+      "panelSize": "32 Inch",
+      "variant": "DVT",
+      "Squad Name": "E2E New Device Secondary Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Negroni 2K",
+      "mac": "1C:2F:A2:B8:6A:8A",
+      "panelSize": "24 Inch",
+      "variant": "DVT",
+      "Squad Name": "E2E New Device Secondary Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Negroni 2K ",
+      "mac": "1C:2F:A2:BE:18:6D",
+      "panelSize": "32 Inch",
+      "variant": "DVT",
+      "Squad Name": "E2E New Device Secondary Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Negroni 2K",
+      "mac": "1C:2F:A2:BE:18:92",
+      "panelSize": "32 Inch",
+      "variant": "DVT",
+      "Squad Name": "E2E New Device Secondary Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Negroni 2K",
+      "mac": "1C:2F:A2:B8:6A:59",
+      "panelSize": "24 Inch",
+      "variant": "DVT",
+      "Squad Name": "E2E New Device Secondary Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 4K",
+      "mac": "E8:51:9E:D3:9A:8E",
+      "panelSize": "Board",
+      "variant": "EVT",
+      "Squad Name": "Fed Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 4K",
+      "mac": "E8:51:9E:D3:99:D0",
+      "panelSize": "Board",
+      "variant": "EVT",
+      "Squad Name": "Fed Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 4K",
+      "mac": "1C:2F:A2:30:34:BD",
+      "panelSize": "43 Inch",
+      "variant": "EVT",
+      "Squad Name": "Fed Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 4K",
+      "mac": "1C:2F:A2:30:34:C7",
+      "panelSize": "43 Inch",
+      "variant": "EVT",
+      "Squad Name": "Fed Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 4K",
+      "mac": "1C:2F:A2:30:35:CB",
+      "panelSize": "50 Inch",
+      "variant": "EVT",
+      "Squad Name": "Fed Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 4K",
+      "mac": "1C:2F:A2:30:35:A2",
+      "panelSize": "50 Inch",
+      "variant": "EVT",
+      "Squad Name": "Fed Squad",
+      "team": "Performance",
+      "devicegroup": "CATS",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 4K",
+      "mac": "F4:20:15:0F:23:C8",
+      "panelSize": "65 Inch",
+      "variant": "DVT",
+      "Squad Name": "Fed Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 4K",
+      "mac": "F4:20:15:45:93:2A",
+      "panelSize": "55 Inch",
+      "variant": "DVT",
+      "Squad Name": "Fed Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 4K",
+      "mac": "F4:20:15:45:93:94",
+      "panelSize": "55 Inch",
+      "variant": "DVT",
+      "Squad Name": "Fed Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 4K",
+      "mac": "F4:20:15:45:93:53",
+      "panelSize": "55 Inch",
+      "variant": "DVT",
+      "Squad Name": "Fed Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 4K",
+      "mac": "F4:20:15:45:93:23",
+      "panelSize": "55 Inch",
+      "variant": "DVT",
+      "Squad Name": "Fed Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 4K",
+      "mac": "F4:20:15:0F:23:8C",
+      "panelSize": "86 Inch",
+      "variant": "DVT",
+      "Squad Name": "Fed Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 4K",
+      "mac": "1C:2F:A2:30:36:3F",
+      "panelSize": "55 Inch",
+      "variant": "EVT -2",
+      "Squad Name": "Fed Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Apache 4K",
+      "mac": "F4:20:15:45:94:AC",
+      "panelSize": "50 Inch",
+      "variant": "DVT",
+      "Squad Name": "Fed Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Element",
+      "mac": "A8:4A:63:88:DF:FC",
+      "panelSize": "50 Inch",
+      "variant": "DVT",
+      "Squad Name": "Fed Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Hisense V1",
+      "mac": "A0:62:FB:4B:7A:DF",
+      "panelSize": "43 Inch",
+      "variant": "DVT",
+      "Squad Name": "Fed Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Pioneer",
+      "mac": "A8:4A:63:6A:5A:4F",
+      "panelSize": "55 Inch",
+      "variant": "DVT",
+      "Squad Name": "Fed Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Hisense V2",
+      "mac": "88:B8:63:09:5B:FA",
+      "panelSize": "55 Inch",
+      "variant": "DVT",
+      "Squad Name": "Fed Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Hisense V1",
+      "mac": "A0:62:FB:0D:33:3B",
+      "panelSize": "50 Inch",
+      "variant": "DVT",
+      "Squad Name": "Fed Squad",
+      "team": "Manual",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Pioneer",
+      "mac": "A8:4A:63:A3:25:75",
+      "panelSize": "",
+      "variant": "DVT",
+      "Squad Name": "Fed Squad",
+      "team": "Automation",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Element",
+      "mac": "A8:4A:63:1E:48:A0",
+      "panelSize": "",
+      "variant": "DVT",
+      "Squad Name": "Fed Squad",
+      "team": "Automation",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Hisense V2",
+      "mac": "88:B8:63:09:5B:E9",
+      "panelSize": "",
+      "variant": "DVT",
+      "Squad Name": "Fed Squad",
+      "team": "Automation",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity Sercomm Broadcomm",
+      "mac": "F0:46:3B:5B:F8:E2",
+      "panelSize": "Board",
+      "variant": "",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity Sercomm Realtek",
+      "mac": "F0:46:3B:14:68:38",
+      "panelSize": "Board",
+      "variant": "",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity WNC Realtek",
+      "mac": "F0:46:3B:2D:F1:29",
+      "panelSize": "Board",
+      "variant": "",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity Sercomm Broadcomm",
+      "mac": "74:37:5F:46:1B:58",
+      "panelSize": "Board",
+      "variant": "",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity Sercomm Realtek",
+      "mac": "F0:46:3B:0F:CE:CD",
+      "panelSize": "Board",
+      "variant": "",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity WNC Realtek",
+      "mac": "F0:46:3B:2D:F3:F6",
+      "panelSize": "Board",
+      "variant": "",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity Sercomm Broadcomm",
+      "mac": "F0:46:3B:5B:DD:43",
+      "panelSize": "Board",
+      "variant": "",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity Sercomm Realtek",
+      "mac": "F0:46:3B:02:5C:92",
+      "panelSize": "Board",
+      "variant": "",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity WNC Realtek",
+      "mac": "F0:46:3B:2D:EE:92",
+      "panelSize": "Board",
+      "variant": "",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Charter Sercomm Broadcomm",
+      "mac": "F0:46:3B:5B:F9:7E",
+      "panelSize": "Board",
+      "variant": "",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Charter Sercomm Broadcomm",
+      "mac": "F0:46:3B:5B:F9:66",
+      "panelSize": "Board",
+      "variant": "",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Charter Sercomm Broadcomm",
+      "mac": "F0:46:3B:5B:E4:D5",
+      "panelSize": "Board",
+      "variant": "",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "ES1 Sercomm Realtek",
+      "mac": "F0:46:3B:FA:D9:EB",
+      "panelSize": "Board",
+      "variant": "DVT2",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "ES1 Sercomm Realtek",
+      "mac": "F0:46:3B:FA:DA:66",
+      "panelSize": "Board",
+      "variant": "DVT2",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "ES1 Sercomm Realtek",
+      "mac": "F0:46:3B:FA:DD:00",
+      "panelSize": "Board",
+      "variant": "DVT2",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "ES1 Sercomm Realtek",
+      "mac": "F0:46:3B:FA:DC:9A",
+      "panelSize": "Board",
+      "variant": "DVT2",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity",
+      "mac": "F0:46:3B:5B:F8:E2",
+      "panelSize": "Board",
+      "variant": "Sercomm Broadcomm",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity",
+      "mac": "F0:46:3B:14:68:38",
+      "panelSize": "Board",
+      "variant": "Sercomm Realtek",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity",
+      "mac": "F0:46:3B:2D:F1:29",
+      "panelSize": "Board",
+      "variant": "WNC Realtek",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity",
+      "mac": "74:37:5F:46:1B:58",
+      "panelSize": "Board",
+      "variant": "Sercomm Broadcomm",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity",
+      "mac": "F0:46:3B:0F:CE:CD",
+      "panelSize": "Board",
+      "variant": "Sercomm Realtek",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity",
+      "mac": "F0:46:3B:2D:F3:F6",
+      "panelSize": "Board",
+      "variant": " WNC Realtek",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity",
+      "mac": "F0:46:3B:5B:DD:43",
+      "panelSize": "Board",
+      "variant": "Sercomm Broadcomm",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity",
+      "mac": "F0:46:3B:02:5C:92",
+      "panelSize": "Board",
+      "variant": "Sercomm Realtek",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Xfinity",
+      "mac": "F0:46:3B:2D:EE:92",
+      "panelSize": "Board",
+      "variant": "WNC Realtek",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Charter",
+      "mac": "F0:46:3B:5B:F9:7E",
+      "panelSize": "Board",
+      "variant": "Sercomm Broadcomm",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Charter",
+      "mac": "F0:46:3B:5B:F9:66",
+      "panelSize": "Board",
+      "variant": "Sercomm Broadcomm",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "Charter",
+      "mac": "F0:46:3B:5B:E4:D5",
+      "panelSize": "Board",
+      "variant": "Sercomm Broadcomm",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "ES1 Sercomm Realtek",
+      "mac": "F0:46:3B:FA:D9:EB",
+      "panelSize": "Board",
+      "variant": "DVT2",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "ES1 Sercomm Realtek",
+      "mac": "F0:46:3B:FA:DA:66",
+      "panelSize": "Board",
+      "variant": "DVT2",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "ES1 Sercomm Realtek",
+      "mac": "F0:46:3B:FA:DD:00",
+      "panelSize": "Board",
+      "variant": "DVT2",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    },
+    {
+      "model": "ES1 Sercomm Realtek",
+      "mac": "F0:46:3B:FA:DC:9A",
+      "panelSize": "Board",
+      "variant": "DVT2",
+      "Squad Name": "New Device Squad",
+      "team": "Functional",
+      "devicegroup": "Desk",
+      "status": "In Use"
+    }
+
+    
+  ],
+  "Testsuites": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Trainings": [
+    {
+      "title": "Leadership Development",
+      "description": "This training program focuses on developing leadership skills necessary for managing teams effectively and driving organizational success.",
+      "date": "2024-09-15",
+      "location": "Conference Room A",
+      "duration": "3 days",
+      "instructor": "John Doe",
+      "image": "img/trainings/leadership.jpg"
+    },
+    {
+      "title": "Advanced Project Management",
+      "description": "An in-depth program designed for experienced project managers looking to enhance their skills in project planning and execution.",
+      "date": "2024-10-05",
+      "location": "Training Hall B",
+      "duration": "5 days",
+      "instructor": "Karen Doe",
+      "image": "img/trainings/project_management.jpg"
+    },
+    {
+      "title": "Creative Design Techniques",
+      "description": "A workshop for designers to explore innovative design techniques and tools to enhance creativity and productivity.",
+      "date": "2024-11-01",
+      "location": "Design Studio",
+      "duration": "2 days",
+      "instructor": "Mike Doe",
+      "image": "img/trainings/creative_design.jpg"
+    },
+    {
+      "title": "Effective Communication Skills",
+      "description": "Training aimed at improving communication skills across various contexts including team collaboration and client interactions.",
+      "date": "2024-12-10",
+      "location": "Meeting Room C",
+      "duration": "1 day",
+      "instructor": "Jane Doe",
+      "image": "img/trainings/communication_skills.jpg"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  }
+}

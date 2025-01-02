@@ -1,0 +1,290 @@
+/* General body styling */
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #343a40; /* Dark gray text color */
+  font-family: 'Arial', sans-serif; /* Consistent font */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure full height for the body */
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Container for the entire header including the title, dropdown, and search bar */
+.header-container {
+  position: relative;
+  padding-bottom: 150px; /* Space to accommodate the header image */
+  margin-top: 0;
+}
+
+/* Unique Section Title Styling */
+/* Image header styling */
+.image-header {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  margin-top: -20px;
+}
+
+.header-image {
+  width: 100%;
+  max-height: 370px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+/* Header Controls */
+.header-controls {
+  display: flex;
+  justify-content: space-between; /* Space out the left and right sections */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ddd;
+  margin-top: 10px; /* Ensure proper space below the header controls */
+}
+
+.left-controls {
+  flex: 1; /* Take up equal space */
+}
+
+.header-title {
+  flex: 2;
+  text-align: center;
+  font-size: 18px; /* Match the device section font size */
+  font-weight: bold;
+  color: #007bff;
+					
+}
+
+.right-controls {
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  flex: 1; /* Take up equal space */
+}
+
+/* Updated unique class names for search and show entries */
+.trainings-search-container {
+  margin-left: auto; /* Push search container to the right edge */
+  display: flex;
+  align-items: center;
+}
+
+.trainings-search-container label {
+  font-weight: 500; /* Slightly bolder text */
+  color: #007bff; /* Label color */
+  margin-right: 10px; /* Space between label and input */
+  font-size: 14px; /* Consistent font size */
+  font-family: 'Arial', sans-serif; /* Consistent font style */
+}
+
+.trainings-search-container input {
+  width: 150px; /* Increase width */
+  height: 36px; /* Increase height for better visibility */
+  padding: 6px 12px; /* Adjust padding */
+  border: 1px solid #007bff; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 14px; /* Font size inside the search box */
+  color: #007bff; /* Font color */
+  background-color: #f1f9ff; /* Background color */
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Inner shadow */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  font-weight: 500; /* Make text bolder */
+}
+
+.trainings-search-container input::placeholder {
+  color: #007bff; /* Placeholder color */
+  font-style: italic; /* Italicize the placeholder */
+}
+
+.trainings-search-container input:hover {
+  background-color: #e9f5ff; /* Background color on hover */
+  border-color: #0056b3; /* Border color on hover */
+}
+
+/* Updated unique class names for show entries dropdown */
+.show-entries {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.show-entries label {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.show-entries select {
+  padding: 12px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #333;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.show-entries select:hover {
+  background-color: #f0f8ff;
+  border-color: #0056b3;
+}
+
+.trainings-show-entries-container select:focus {
+  border-color: #007bff; /* Border color on focus */
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Shadow effect on focus */
+}
+
+/* Training Table Styling */
+.training-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.training-table th
+{
+  padding: 12px; /* Adjust padding for consistency */
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 16px; /* Ensure consistent font size */
+  font-family: 'Arial', sans-serif; /* Match the device section font style */
+  transition: background-color 0.3s, color 0.3s;
+}
+.training-table td {
+  padding: 12px; /* Adjust padding for consistency */
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 16px; /* Ensure consistent font size */
+  font-family: 'Calibri', sans-serif; /* Match the device section font style */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.training-table th {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.training-table td {
+  background: #ffffff;
+  
+}
+
+.training-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.training-table tr:hover {
+  background-color: #e1e8ff; /* Light blue background on hover */
+  transform: scale(1.02); /* Add a slight scale effect */
+}
+
+.training-table td a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.training-table td a:hover {
+  text-decoration: underline;
+}
+
+/* Unique Pagination Controls for Training Section */
+.training-pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.training-pagination-info {
+  font-size: 14px;
+  color: #495057;
+}
+
+.training-pagination-controls {
+  display: flex;
+  gap: 5px;
+}
+
+.training-pagination-controls button,
+.training-pagination-controls a {
+  border: 1px solid #ddd;
+  background-color: #ffffff;
+  color: #007bff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.training-pagination-controls button:hover,
+.training-pagination-controls a:hover {
+  background-color: #e9f5ff; /* Background color on hover */
+  border-color: #007bff;
+}
+
+.training-pagination-controls button.active,
+.training-pagination-controls a.active {
+  background-color: #007bff;
+  color: #ffffff;
+  border-color: #007bff;
+}
+
+.training-pagination-controls button:disabled {
+  background-color: #f1f1f1;
+  color: #ccc;
+  border-color: #ddd;
+  cursor: not-allowed;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .header-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-title {
+    margin: 10px 0; /* Margin around the title */
+  }
+
+  .search-container {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .show-entries-container select {
+    font-size: 12px;
+  }
+
+  .trainings-table td, .trainings-table th {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .search-container input {
+    width: 100%; /* Full width on smaller screens */
+    font-size: 12px;
+  }
+}
+

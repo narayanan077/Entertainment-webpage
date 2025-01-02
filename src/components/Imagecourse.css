@@ -1,0 +1,40 @@
+.image-course {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .image-container {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-course img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .scroll-controls {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .scroll-button {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .scroll-button:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  

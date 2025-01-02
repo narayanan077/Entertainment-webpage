@@ -1,0 +1,252 @@
+/* General body styling */
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #343a40; /* Dark gray text color */
+  font-family: "Arial", sans-serif; /* Consistent font */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+/* Navigation bar styling */
+nav {
+  margin: 0; /* Ensure no space around the navigation bar */
+  padding: 0; /* Ensure no padding inside the navigation bar */
+  position: fixed; /* Fix the navigation bar at the top */
+  width: 100%; /* Full width of the viewport */
+  top: 0; /* Align to the top of the viewport */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Container for the entire header including the title, dropdown, and search bar */
+.header-container {
+  position: relative;
+  padding-bottom: 150px; /* Space to accommodate the header image */
+  margin-top: 0; /* Ensure no extra space on top */
+}
+
+/* Image header styling */
+.image-header {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Adjust height to match the required size */
+  overflow: hidden; /* Hide overflow for better alignment */
+  margin-top: -20px; /* Remove any space above the image header */
+}
+
+.header-image {
+  width: 100%;
+  max-height: 370px; /* Increase height to allow for a better HD view */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  border-radius: 10px; /* Rounded corners for a smoother look */
+  display: block; /* Remove extra space below the image */
+}
+
+/* Header Controls */
+.header-controls {
+  display: flex;
+  justify-content: space-between; /* Space out the left, title, and right sections */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ddd;
+  margin-top: 10px; /* Ensure proper space below the header controls */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition for hiding */
+}
+
+.header-controls.hidden {
+  opacity: 0; /* Hide controls when scrolled down */
+}
+
+.left-controls,
+.right-controls {
+  flex: 1; /* Take up equal space */
+}
+
+.header-title {
+  flex: 2; /* Take up more space */
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 10px;
+  margin-left: -100px;
+}
+
+/* Plane-style Show Entries Dropdown */
+.show-entries {
+  position: relative;
+}
+.show-entries label {
+  margin-right: 10px;
+  font-size: 14px; /* Match font size with the show-entries */
+  color: #007bff; /* Primary color for the label */
+}
+
+.show-entries select {
+  padding: 8px 12px; /* Padding inside the dropdown */
+  border: 1px solid #ddd; /* Light border color */
+  border-radius: 4px; /* Slightly rounded corners */
+  background-color: #ffffff; /* White background for simplicity */
+  color: #333; /* Dark text color */
+  font-size: 14px; /* Font size for dropdown */
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle elevation effect */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition on hover/focus */
+  margin: 0;
+}
+
+.show-entries select:focus {
+  border-color: #007bff; /* Highlight border on focus */
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Highlight shadow on focus */
+}
+
+/* Search container styling */
+.search-container {
+  flex-grow: 1; /* Allow to grow and take up remaining space */
+  max-width: 300px; /* Restrict width for better layout */
+  display: flex;
+  justify-content: flex-end; /* Align to the end */
+}
+
+.search-container input {
+  width: 220px; /* Set a specific width for a shorter search box */
+  height: 40px;
+  padding: 5px 8px; /* Adjust padding to make the box more compact */
+  border: 1px solid #007bff; /* Border color matching primary theme */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 14px; /* Match font size with the header title */
+  font-weight: bold; /* Match font weight with the header title */
+  color: #007bff; /* Match font color with the header title */
+  background-color: #f1f9ff; /* Light blue background */
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Inner shadow */
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.search-container input::placeholder {
+  color: #007bff; /* Placeholder color matching primary theme */
+}
+
+.search-container input:hover {
+  background-color: #e9f5ff; /* Slightly darker blue on hover */
+  border-color: #0056b3; /* Darker border color on hover */
+}
+
+/* Device table styling to maintain existing styles */
+.table-container {
+  margin-top: -80px; /* Move table 30px above */
+}
+
+.device-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.device-table th,
+.device-table td {
+  padding: 12px;
+  text-align: center;
+}
+
+.device-table th {
+  background-color: #007bff; /* Solid blue background for header */
+  color: #ffffff; /* White text color */
+  font-weight: bold;
+}
+
+.device-table td {
+  padding: 12px; /* Adjust padding for consistency */
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 14px; /* Ensure consistent font size */
+  font-family: "Arial", sans-serif; /* Match the device section font style */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.device-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.device-table tr:hover {
+  background-color: #e1e8ff; /* Light blue background on hover */
+  transform: scale(1.02);
+}
+
+/* Pagination container */
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0; /* Reduced space around pagination */
+}
+
+.pagination-info {
+  font-size: 14px;
+  color: #495057;
+}
+
+.pagination-controls {
+  display: flex;
+  gap: 5px; /* Reduced gap between pagination buttons */
+}
+
+.pagination-controls button {
+  border: none;
+  background: linear-gradient(145deg, #e0e0e0, #ffffff);
+  padding: 8px 16px; /* Adjusted padding */
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+  color: #343a40;
+}
+
+.pagination-controls button.active {
+  background: linear-gradient(145deg, #007bff, #0056b3);
+  color: #ffffff;
+}
+
+.pagination-controls button:hover:not(.active) {
+  background: linear-gradient(145deg, #f0f0f0, #e0e0e0);
+  transform: scale(1.05);
+}
+
+.pagination-controls button:disabled {
+  cursor: not-allowed;
+  background: #e0e0e0;
+  color: #b0b0b0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .header-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-controls .search-container input {
+    width: 100%;
+  }
+
+  .pagination-controls {
+    flex-direction: column;
+  }
+
+  .pagination-controls button {
+    margin: 5px 0;
+  }
+}
+.sort-indicator {
+  margin-left: 5px;
+  font-size: 0.8em;
+}
+
+.sort-indicator.ascending {
+  color: blue; /* Adjust as needed */
+}
+
+.sort-indicator.descending {
+  color: red; /* Adjust as needed */
+}
